@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>ServiFinder</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../../img/favicon.ico" />
+        <!--link a Iconos de bootstrap-->
+        <link href="../../bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+        <!--link a hoja de estilos-->
+        <link href="../../bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="../../views/PagPrincipal.html">ServiFinder</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../../views/PagPrincipal.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../views/index.html">Sobre nosotros</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">Servicios medicos</a></li>
+                                
+                                <li><a class="dropdown-item" href="#!">Servicios generales</a></li>
+                               
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi bi-search"></i>
+                            Buscar Tecnicos en computadoras
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!--Presentación del tecnico-->
+         <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="row gx-4 gx-lg-5 align-items-center">
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0 rounded" src="../../img/Profesionistas/Tecnicos en reparacion de pc/tecnico1.jpeg"  alt="..." /></div>
+                    <div class="col-md-6">
+                        <h1 class="display-5 fw-bolder">Margarita Perez Luna</h1>
+                        <div class="fs-5 mb-5">
+                                       <ul class="list-unstyled mb-4">
+                                         <li><strong>Fecha de nacimiento:</strong> 20 de Julio de 1935</li>
+                                         <li><strong>Sexo:</strong> Masculino</li>
+                                         <li><strong>Idiomas:</strong> Español, Ingles, Frances, Chino, Mandarin</li>
+                                         <li><strong>Lenguas indígenas:</strong> Tzeltal (Basico)</li>
+                                         <li><strong>Horario de atención:</strong> Lunes a Domingo, 9:00 AM - 11:00 PM</li>
+                                         <li><strong>Costo del servicio:</strong> Dependera de la reparacion</li>  
+                                        </ul>
+                                        <p class="lead">
+                                        Soy ingeniero en sistemas, trabajo con computadoras, impresoras, camaras y demas dispostivos.
+                                        Me concentro en el servicio, asi que puedo asegurar que su problema se resolvera.
+                                        </p>
+                                        
+                                                 <i class="bi bi-whatsapp"><strong> Telefono de contacto:</strong> 9191345610</i>
+                                                
+
+                        
+                        
+                        
+                        
+                        </div>
+                     
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Agregar comentario-->
+        <section>
+          <div class="container my-5 py-5 text-body">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-10 col-lg-8 col-xl-6">
+                <div class="card">
+                  <div class="card-body p-4">
+                    <div class="d-flex flex-start w-100">
+                      <img class="rounded-circle shadow-1-strong me-3"
+                        src="../../img/avatar.jpeg" alt="avatar" width="65"
+                        height="65" />
+                      <div class="w-100">
+                        <h5>Agrega un comentario</h5>
+                        <!--review-->
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                            <div class="bi-star text-danger" title="muy mal"> </div>
+                            <div class="bi-star text-danger" title="mal"> </div>
+                            <div class="bi-star text-danger" title="Regular"> </div>
+                            <div class="bi-star text-danger" title="Bien"> </div>
+                            <div class="bi-star text-danger" title="Muy bien"> </div>
+                        </div>
+
+                        <div data-mdb-input-init class="form-outline">
+                          <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+                          <label class="form-label" for="textAreaExample">Escribe que te parecio este tecnico</label>
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                          <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-danger">
+                            Enviar review <i class="fas fa-long-arrow-alt-right ms-1"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Seccion de comentarios-->
+        <section>
+          <div class="container my-5 py-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-12 col-lg-10">
+                <div class="card text-body">
+                  <div class="card-body p-4">
+                    <h4 class="mb-0">Comentarios recientes</h4>
+                    <br>
+
+                    <div class="d-flex flex-start">
+                      <img class="rounded-circle shadow-1-strong me-3"
+                        src="../../img/avatar.jpeg" alt="avatar" width="60"
+                        height="60" />
+                      <div>
+                        <h6 class="fw-bold mb-1">Eduardo Ramirez</h6>
+                        <div class="d-flex align-items-center mb-3">
+                          <p class="mb-0">
+                            Mayo 23, 2025
+                          </p>
+                        </div>
+                        <div class="d-flex justify-content-left small text-warning mb-2">
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                        </div>
+                        <p class="mb-0">
+                          Creo que hace un buen trabajo, pero siempre hace mencion de un tal Jordy Rafael..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; ServiFinder 2025</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="../bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../bootstrap-5.3.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
