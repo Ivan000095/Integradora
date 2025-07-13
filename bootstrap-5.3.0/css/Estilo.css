@@ -5,7 +5,7 @@ nav {
 
 footer {
     background-color: #00c3a5!important;
-    height: 20vh;
+    height: 25vh;
 }
 
 #contenido {
@@ -49,11 +49,6 @@ footer {
 .star-rating label:hover,
 .star-rating label:hover ~ label {
         color: #f5b301;
-}
-
-#footer{
-    background-color:#4D8C7A;
-    height: 20vh;
 }
 
 #copyright{
