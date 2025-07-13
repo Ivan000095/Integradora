@@ -1,0 +1,52 @@
+nav {
+    background-color: #00c3a5!important;
+    width: 100%;
+}
+
+footer {
+    background-color: #00c3a5!important;
+    height: 20vh;
+}
+
+#contenido {
+    overflow-x: auto;
+    min-height: 90vh;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#tabla-catalogo {
+    width: 95%;
+    margin: auto;
+}
+
+#btnadd {
+    position: absolute;
+    top: 22.5%;
+    right: 2.5%;
+}
+
+.inline{
+    display: inline;
+}
+
+.star-rating {
+    direction: rtl;
+    display: inline-flex;
+    font-size: 1.5rem;
+}
+.star-rating input[type="radio"] {
+    display: none;
+}
+.star-rating label {
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+        color: #f5b301;
+}
