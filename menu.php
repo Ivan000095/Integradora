@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a href="/Integradora/index.php" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="/Integradora/index.php#quienesomos" class="nav-link">¿Quienes somos?</a></li>
+                <li class="nav-item"><a href="/Integradora/index.php#Nosotros" class="nav-link">¿Quienes somos?</a></li>
                 <li class="nav-item"><a href="/Integradora/index.php#Contacto" class="nav-link">Contacto</a></li>
                 <li class="nav-item"><a class="nav-link" href="/Servifinder Oficial/vista/Comentario/">Comentarios</a></li>
                 <li class="nav-item dropdown">
