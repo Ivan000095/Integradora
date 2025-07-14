@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg ">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <img src="#" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+            <img src="/Integradora/img/{.png" alt="Logo" width="100" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a href="/Integradora/index.php" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="/Integradora/index.php#Nosotros" class="nav-link">¿Quienes somos?</a></li>
+                <li class="nav-item"><a href="/Integradora/index.php#quienesomos" class="nav-link">¿Quienes somos?</a></li>
                 <li class="nav-item"><a href="/Integradora/index.php#Contacto" class="nav-link">Contacto</a></li>
                 <li class="nav-item"><a class="nav-link" href="/Servifinder Oficial/vista/Comentario/">Comentarios</a></li>
                 <li class="nav-item dropdown">

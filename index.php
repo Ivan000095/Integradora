@@ -14,7 +14,7 @@
         </header>
 
         <section class="py-3 py-md-5" id="contenido">
-            <div class="container">
+            <div class="container" id="quienesomos">
                 <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
                 <div class="col-12 col-lg-6 col-xl-5">
                     <img class="img-fluid rounded" loading="lazy" src="../img/100_0254.JPG" alt="About 1">
