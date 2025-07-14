@@ -34,8 +34,8 @@
                     <td> <?php echo $e->Nombre; ?></td>
                     <td> <?php echo $e->Descripcion; ?></td>
                     <td> <?php echo $e->Horario; ?></td>
-                    <td><?php echo $e->Dias_labo; ?></td>
-                    <td><img src="../../uploads/<?php echo $e->Foto; ?>" alt="Foto de <?php echo $e->Nombre; ?>" width="90px"></td>
+                    <td> <?php echo $e->Dias_labo; ?></td>
+                    <td> <?php echo $e->Foto; ?></td>
                     <td> <?php echo $e->DireccionyRef; ?></td>
                    
                     

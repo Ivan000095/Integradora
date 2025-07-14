@@ -1,6 +1,9 @@
 <html>
    <?php 
     include('../../head.php')
+   
+   
+   
    ?>
 
     <body>
@@ -10,7 +13,7 @@
         <br>    
         <h1 id="titulo">Nuevo Establecimiento</h1>
         <br>
-        <form action="store.php" method="POST" enctype="multipart/form-data">
+        <form action="store.php" method="POST">
         <div class="row justify-content-center">
             <div class="col-4">
                 <label for="Nombre" class="form-label">Nombre</label>
@@ -52,11 +55,11 @@
                 <input type="text" name="DireccionyRef" id="DireccionyRef" class="form-control">
             </div>
         </div>        
-        <br>
+
           <div class="row justify-content-center">
             <div class="col-4">
-                <input type="reset" value="Limpiar" class="btn btn-btn btn-outline-dark me-2">
-                <input type="submit" value="Guardar" class="btn btn-outline-dark me-2">
+                <input type="reset" value="Limpiar" class="btn btn-primary">
+                <input type="submit" value="Guardar" class="btn btn-secondary">
             </div>
         </div>
         
