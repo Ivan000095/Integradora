@@ -18,10 +18,10 @@
                     <ul class="dropdown-menu">
                         <li><a href="">Médicos</a></li>
                         <li><a href="/Integradora/vistas/Profesionistas/vista.php">Técnicos</a></li>
-                        <li><a href="/ServiFinder Oficial/vista/cliente/establecimiento/">Otros</a></li>
+                        <li><a href="/Integradora/vistas/Establecimientos/">Establecimientos</a></li>
                     </ul>
                 </li>
-                <li class="Registro"><a class="nav-link" href="/Servifinder Oficial/vista/login/"><ion-icon name="person-outline"></ion-icon>  Registrarse/Iniciar sesión</i></a>
+                <li class="Registro"><a class="nav-link" href="/Servifinder Oficial/vista/login/"><i class="bi bi-person"></i>  Registrarse/Iniciar sesión</i></a>
             </ul>
         </div>
     </div>

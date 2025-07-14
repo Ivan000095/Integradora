@@ -39,18 +39,19 @@ class Profesionista {
             P.Genero AS genero,
             P.F_Nacimiento AS fecha,
             TIMESTAMPDIFF(YEAR, P.F_Nacimiento, CURDATE()) AS edad,
-            AVG(R.Puntuacion) AS puntuacion,
+            AVG(R.Puntuacion) as puntuacion,
             P.Telefono AS telefono,
             S.Nombre AS servicio,
             PS.Costo AS costo,
             PS.Dias_labo As diasLab,
             PS.Horario AS horario,
             PS.DireccionyRef AS ubicacion
-        FROM profesionistas p
-        JOIN tusuarios U ON P.Id_Usuario = U.Id_Usuario
-        JOIN ProfServ PS ON Ps.Id_Profesionista = PS.Id_Profesionista
-        JOIN servicios S ON PS.Id_Servicio = S.Id_Servicio
-        JOIN ReseñaProf R ON R.Id_Profesionista = P.Id_Profesionista;
+        	FROM profesionistas p
+			JOIN tusuarios U ON P.Id_Usuario = U.Id_Usuario
+			JOIN ProfServ PS ON Ps.Id_Profesionista = PS.Id_Profesionista
+			JOIN servicios S ON PS.Id_Servicio = S.Id_Servicio
+			LEFT JOIN ReseñaProf R ON R.Id_Profesionista = P.Id_Profesionista
+			GROUP BY P.Id_Profesionista;
         ';
         
         $resultado = $con->query($sql);

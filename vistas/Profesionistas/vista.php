@@ -111,7 +111,7 @@
                                                 <div>
                                                     <h6 class="fw-bold mb-1"><?= htmlspecialchars($r['NombreUsr']) ?></h6>
                                                     <div class="d-flex justify-content-left small text-warning mb-2">
-                                                        <?php for ($i = 0; $i < $p->puntuacion ; $i++): ?>
+                                                        <?php for ($i = 1; $i < $p->puntuacion ; $i++): ?>
                                                             <div class="bi-star-fill"></div>
                                                         <?php endfor; ?>
                                                     </div>

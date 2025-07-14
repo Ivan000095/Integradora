@@ -39,5 +39,5 @@
     $Profesionista->costo = $_POST['costo'];
 
     $Profesionista->save();
-    echo '<meta http-equiv="refresh" content="0;url=/Integradora/vistas/Profesionistas">';
+    //echo '<meta http-equiv="refresh" content="0;url=/Integradora/vistas/Profesionistas">';
 ?>
