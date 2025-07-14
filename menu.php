@@ -17,7 +17,7 @@
                     <a href="" class="nav-link">Servicios</a>
                     <ul class="dropdown-menu">
                         <li><a href="">Médicos</a></li>
-                        <li><a href="/Integradora/vistas/Profesionistas/vista.php">Técnicos</a></li>
+                        <li><a href="/Integradora/vistas/Profesionistas/vista.php">Profesionistas</a></li>
                         <li><a href="/Integradora/vistas/Establecimientos/">Establecimientos</a></li>
                     </ul>
                 </li>
