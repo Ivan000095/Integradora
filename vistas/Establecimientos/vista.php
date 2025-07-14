@@ -23,7 +23,7 @@
                     ?>
                     <div class="col mb-5">
                         <div class="card h-100">
-                            <img class="card-img-top" src="../../<?= $e->Foto ?>" alt="<?= $e->Nombre ?>" style="height: 50%; width: 100%;" />
+                            <img class="card-img-top" src="../../uploads/<?= $e->Foto ?>" alt="<?= $e->Nombre ?>" style="height: 50%; width: 100%;" />
                             <div class="card-body p-4">
                                 <div class="text-center">
                                   
